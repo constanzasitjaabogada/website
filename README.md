@@ -23,7 +23,7 @@ Casi todo lo que cambia con el tiempo está en `_config.yml` (bloque `titular`) 
 ## Antes de publicar
 
 - [ ] Rellenar `nif` y `numero_colegiada` en `_config.yml`
-- [ ] Confirmar la dirección (Diagonal 468 o Passeig de Gràcia 21)
+- [x] Dirección confirmada: Avda. Diagonal 468, 9ª planta
 - [ ] Pegar el script de Analyzati en `_includes/analitica.html` y poner `analitica: true`
 - [ ] Settings › Pages: publicar desde la rama `main`, carpeta raíz; dominio personalizado `constanzasitjaabogada.com`; activar *Enforce HTTPS*
 
