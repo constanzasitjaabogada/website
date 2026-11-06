@@ -8,8 +8,8 @@ baseurl: ""
 lang: es
 
 # Datos de la titular – se usan en la cabecera, el pie y los textos legales.
-# PENDIENTE: confirmar con Costi la dirección (Diagonal 468 o Passeig de Gràcia 21),
-# el NIF y el número de colegiada antes de publicar.
+# PENDIENTE: el NIF y el número de colegiada antes de publicar.
+# Dirección confirmada: Diagonal 468 (Passeig de Gràcia 21 era la antigua).
 titular:
   nombre: "Constanza Sitjà Bobadilla"
   nombre_corto: "Constanza Sitjà"
