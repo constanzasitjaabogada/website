@@ -9,28 +9,17 @@ description: "Política de cookies del sitio web de Constanza Sitjà. Este sitio
 
 Las cookies son pequeños archivos que algunos sitios web guardan en el navegador de quien los visita, por ejemplo para recordar preferencias o para seguir su navegación.
 
-**Este sitio web no instala cookies ni guarda ningún otro dato en tu dispositivo** (ni en el almacenamiento local ni en el de sesión del navegador). Tampoco utiliza identificadores persistentes ni técnicas de huella digital. Por eso no se muestra ningún aviso para aceptar o rechazar cookies.
+**Este sitio web no instala cookies ni guarda ningún otro dato en tu dispositivo** (ni en el almacenamiento local ni en el de sesión del navegador). Tampoco utiliza herramientas de estadísticas, identificadores ni técnicas de huella digital. Por eso no se muestra ningún aviso para aceptar o rechazar cookies.
 
-## 2. Estadísticas de visitas sin cookies
-
-Para saber de forma agregada cuántas personas visitan el sitio y qué páginas consultan, se utiliza **Analyzati**, un servicio europeo de estadísticas con servidores en la Unión Europea que:
-
-- no instala cookies ni guarda datos en tu navegador, ni utiliza identificadores persistentes de visitante;
-- no sigue tu navegación entre sitios web;
-- ofrece al despacho únicamente cifras agregadas (número de visitas, páginas más consultadas, procedencia, tipo de dispositivo y ciudad o país aproximados);
-- respeta la opción «No rastrear» (*Do Not Track*) de tu navegador: si la tienes activada, no se registra tu visita.
-
-Más información en la [política de privacidad de Analyzati](https://analyzati.com/privacy-policy/).
-
-## 3. Registros del alojamiento
+## 2. Registros del alojamiento
 
 El sitio está alojado en GitHub Pages. GitHub registra la dirección IP de los visitantes para garantizar la seguridad del servicio. Este registro no usa cookies. Puedes consultar la [política de privacidad]({{ '/politica-de-privacidad/' | relative_url }}) para más detalles.
 
-## 4. Enlaces a sitios de terceros
+## 3. Enlaces a sitios de terceros
 
 Si sigues un enlace a otro sitio web (por ejemplo, el mapa de la página de contacto), ese sitio puede usar sus propias cookies, de acuerdo con su política.
 
-## 5. Cómo gestionar las cookies en tu navegador
+## 4. Cómo gestionar las cookies en tu navegador
 
 Aunque este sitio no las utiliza, puedes configurar tu navegador para bloquear o eliminar cookies de cualquier sitio web. Consulta la ayuda de tu navegador:
 
@@ -39,6 +28,6 @@ Aunque este sitio no las utiliza, puedes configurar tu navegador para bloquear o
 - [Safari](https://support.apple.com/es-es/guide/safari/sfri11471/mac)
 - [Microsoft Edge](https://support.microsoft.com/es-es/microsoft-edge/eliminar-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09)
 
-## 6. Cambios en esta política
+## 5. Cambios en esta política
 
 Si en el futuro se incorporaran cookies que requieran tu consentimiento, esta política se actualizará y se pedirá ese consentimiento antes de instalarlas.

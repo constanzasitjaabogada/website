@@ -6,7 +6,7 @@ Web de Constanza Sitjà, abogada y mediadora en Barcelona. Sitio estático en Je
 
 | Ruta | Contenido |
 |---|---|
-| `_config.yml` | Datos de la titular (nombre, NIF, colegiada, dirección, teléfono, correo) y si se carga la analítica (Analyzati) |
+| `_config.yml` | Datos de la titular (nombre, NIF, colegiada, dirección, teléfono, correo)  |
 | `_data/areas.yml` | Áreas de práctica: textos de la portada y de *Ámbito de práctica* |
 | `_data/formacion.yml` | Formación académica (página *La firma*) |
 | `index.html`, `la-firma.html`, `ambito-de-practica.html`, `contacto.html` | Páginas principales |
@@ -24,7 +24,6 @@ Casi todo lo que cambia con el tiempo está en `_config.yml` (bloque `titular`) 
 
 - [ ] Rellenar `nif` y `numero_colegiada` en `_config.yml`
 - [x] Dirección confirmada: Avda. Diagonal 468, 9ª planta
-- [ ] Pegar el script de Analyzati en `_includes/analitica.html` y poner `analitica: true`
 - [ ] Settings › Pages: publicar desde la rama `main`, carpeta raíz; dominio personalizado `constanzasitjaabogada.com`; activar *Enforce HTTPS*
 
 ## DNS (cuando el dominio esté en Dinahosting)
