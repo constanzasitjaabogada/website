@@ -22,7 +22,7 @@ Este sitio web **no tiene formularios ni áreas de registro** y **no utiliza coo
 - **Datos que nos facilitas al contactar** por correo electrónico o por teléfono: nombre, datos de contacto y la información que decidas compartir sobre tu consulta.
 - **Datos técnicos de la visita**, que no se usan para identificarte:
   - El proveedor de alojamiento, GitHub, registra la dirección IP de cada visitante por motivos de seguridad del servicio.
-  - El servicio de estadísticas Cloudflare Web Analytics recoge datos agregados de la visita (página consultada, página de procedencia, tipo de navegador y dispositivo, y país), sin cookies ni ningún otro identificador guardado en tu dispositivo.
+  - El servicio de estadísticas Analyzati recoge datos agregados de la visita (página consultada, página de procedencia, tipo de navegador y dispositivo, y ciudad o país aproximados), sin cookies ni identificadores persistentes y sin seguirte entre sitios web.
 
 ## 3. Finalidades y base jurídica
 
@@ -43,7 +43,7 @@ Toda la información que compartas con el despacho, también en una primera cons
 
 - **Consultas que no dan lugar a un encargo:** el tiempo necesario para atenderlas y, después, durante los plazos en que pudieran derivarse responsabilidades.
 - **Asuntos profesionales:** mientras dure la relación profesional y, después, durante los plazos de conservación que exija la normativa aplicable (entre otras, la fiscal y la de prevención del blanqueo de capitales) y los de prescripción de las posibles responsabilidades.
-- **Datos técnicos:** los conservan GitHub y Cloudflare según sus propias políticas; el despacho solo accede a estadísticas agregadas.
+- **Datos técnicos:** los conservan GitHub y Analyzati según sus propias políticas; el despacho solo accede a estadísticas agregadas.
 
 ## 6. Destinatarios
 
@@ -52,11 +52,11 @@ No se ceden datos a terceros salvo obligación legal, por ejemplo a juzgados, tr
 Para el funcionamiento del sitio intervienen estos proveedores:
 
 - **GitHub, Inc.** (alojamiento del sitio web, GitHub Pages). [Declaración de privacidad de GitHub](https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement).
-- **Cloudflare, Inc.** (estadísticas de visitas sin cookies, Cloudflare Web Analytics). [Política de privacidad de Cloudflare](https://www.cloudflare.com/es-es/privacypolicy/).
+- **Analyzati** (estadísticas de visitas sin cookies, con servidores en la Unión Europea). [Política de privacidad de Analyzati](https://analyzati.com/privacy-policy/).
 
 ## 7. Transferencias internacionales
 
-GitHub y Cloudflare tienen su sede en los Estados Unidos. Las transferencias de datos que puedan producirse se amparan en el Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación de la Comisión Europea de 10 de julio de 2023) y, en su caso, en cláusulas contractuales tipo aprobadas por la Comisión Europea.
+GitHub tiene su sede en los Estados Unidos. Las transferencias de datos que puedan producirse por el alojamiento se amparan en el Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación de la Comisión Europea de 10 de julio de 2023) y, en su caso, en cláusulas contractuales tipo aprobadas por la Comisión Europea. Los datos de las estadísticas de visitas se tratan dentro de la Unión Europea.
 
 ## 8. Tus derechos
 
