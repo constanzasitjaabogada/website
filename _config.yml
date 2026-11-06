@@ -24,9 +24,9 @@ titular:
   telefono: "+34 659 49 22 29"
   telefono_enlace: "+34659492229"
 
-# Cloudflare Web Analytics (sin cookies). Pega aquí el token del panel de
-# Cloudflare > Analytics & Logs > Web Analytics. Vacío = no se carga nada.
-cloudflare_web_analytics_token: ""
+# Analítica sin cookies con Analyzati (alojada en la UE).
+# true = se carga el script de _includes/analitica.html; false = no se carga nada.
+analitica: true
 
 # Fecha de última revisión de los textos legales
 legal_actualizado: "noviembre de 2026"
