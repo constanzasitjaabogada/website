@@ -39,7 +39,9 @@ La titular procura que la información esté actualizada y sea correcta, pero no
 
 ## 5. Propiedad intelectual e industrial
 
-Los textos, el diseño, el monograma y los demás elementos del sitio son propiedad de la titular o se utilizan con la autorización o licencia correspondiente. No se permite su reproducción, distribución o transformación con fines comerciales sin autorización previa por escrito. Las tipografías se usan bajo la licencia SIL Open Font License.
+Todos los contenidos de este sitio web, incluidos sin carácter limitativo los textos, las imágenes, el diseño, el monograma y cualquier otro signo distintivo, son propiedad de la titular o se utilizan con la autorización o licencia correspondiente, y quedan reservados todos los derechos sobre ellos.
+
+Queda prohibida cualquier reproducción, distribución, comunicación pública o transformación de estos contenidos, en todo o en parte y en cualquier forma o medio, sin la autorización previa y por escrito de la titular o de sus legítimos propietarios. Las tipografías se usan bajo la licencia SIL Open Font License.
 
 ## 6. Enlaces a otros sitios
 
