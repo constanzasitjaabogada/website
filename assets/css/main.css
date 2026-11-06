@@ -100,6 +100,7 @@ p { margin: 0; }
 .cierre__email { font-family: var(--cursiva); font-style: italic; font-size: 21px; line-height: 1.1; overflow-wrap: anywhere; }
 @media (min-width: 641px) { .cierre__email { overflow-wrap: normal; white-space: nowrap; } }
 .cierre__cita { align-self: flex-start; margin-top: 8px; font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase; border-bottom: 1px solid #fff; padding: 10px 0 4px; }
+.cierre a.cierre__cita:hover { text-decoration: none; border-bottom-color: var(--verde-claro); color: var(--verde-claro); }
 
 /* La firma */
 .firma { display: flex; flex-wrap: wrap; gap: 64px; padding-top: 96px; padding-bottom: 64px; }
