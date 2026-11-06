@@ -1,0 +1,11 @@
+<footer class="pie">
+  <div class="contenedor pie__fila">
+    <p>© {{ site.time | date: "%Y" }} {{ site.titular.nombre_corto }} · {{ site.titular.direccion }}, {{ site.titular.cp_ciudad }}</p>
+    <nav class="pie__legal" aria-label="Textos legales">
+      <a href="{{ '/aviso-legal/' | relative_url }}">Aviso legal</a>
+      <a href="{{ '/politica-de-privacidad/' | relative_url }}">Política de privacidad</a>
+      <a href="{{ '/politica-de-cookies/' | relative_url }}">Política de cookies</a>
+      <a href="{{ '/declaracion-de-accesibilidad/' | relative_url }}">Declaración de accesibilidad</a>
+    </nav>
+  </div>
+</footer>

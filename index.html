@@ -1,0 +1,33 @@
+---
+layout: default
+titulo_seo: "Constanza Sitjà – Abogada y mediadora en Barcelona"
+description: "Asesoramiento legal en derecho civil, sucesiones y mercantil. Constanza Sitjà, abogada y mediadora en Barcelona. Contacto directo y atención personalizada."
+---
+<section class="portada contenedor">
+  <div class="portada__texto">
+    <p class="etiqueta">Abogada y mediadora · Barcelona</p>
+    <h1>Asesoramiento en derecho civil y mercantil.</h1>
+    <p class="entradilla">Especialista en mediación y otros métodos alternativos de solución de conflictos. Atención permanente y contacto personal y directo.</p>
+    <div class="botones">
+      <a class="boton" href="{{ '/contacto/' | relative_url }}">Contacto</a>
+      <a class="boton boton--linea" href="{{ '/la-firma/' | relative_url }}">Ver más</a>
+    </div>
+  </div>
+  <img class="portada__retrato" src="{{ '/assets/img/constanza-sitja-800.webp' | relative_url }}" srcset="{{ '/assets/img/constanza-sitja-800.webp' | relative_url }} 646w, {{ '/assets/img/constanza-sitja.webp' | relative_url }} 900w" sizes="(min-width: 900px) 360px, 90vw" width="360" height="446" alt="Retrato de Constanza Sitjà">
+</section>
+
+<img class="banda-foto banda-foto--alta" src="{{ '/assets/img/inicio.webp' | relative_url }}" srcset="{{ '/assets/img/inicio-800.webp' | relative_url }} 800w, {{ '/assets/img/inicio.webp' | relative_url }} 1200w" sizes="100vw" alt="" loading="lazy">
+
+<section class="areas-resumen" aria-label="Ámbito de práctica">
+  <div class="contenedor areas-resumen__rejilla">
+    {% for area in site.data.areas %}
+    <a class="area-tarjeta" href="{{ '/ambito-de-practica/' | relative_url }}#{{ area.titulo | slugify }}">
+      <span class="numero">{{ area.n }}</span>
+      <span class="area-tarjeta__titulo">{{ area.titulo }}</span>
+      <span class="area-tarjeta__resumen">{{ area.resumen }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% include cierre.html %}

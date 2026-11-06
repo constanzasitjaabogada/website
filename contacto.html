@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Contacto"
+permalink: /contacto/
+description: "¿Necesitas asesoramiento legal? Contacta con Constanza Sitjà, abogada en Barcelona. Atención directa, cercana y profesional en derecho civil y mercantil."
+---
+<img class="banda-foto banda-foto--contacto" src="{{ '/assets/img/contacto.webp' | relative_url }}" srcset="{{ '/assets/img/contacto-800.webp' | relative_url }} 800w, {{ '/assets/img/contacto.webp' | relative_url }} 1200w" sizes="100vw" alt="">
+
+<section class="contacto contenedor">
+  <div class="contacto__datos">
+    <p class="etiqueta">Contacto</p>
+    <h1 class="frase">Si necesitas ayuda, aquí estamos</h1>
+    <dl>
+      <div><dt>Teléfono</dt><dd><a href="tel:{{ site.titular.telefono_enlace }}">{{ site.titular.telefono }}</a></dd></div>
+      <div><dt>Correo electrónico</dt><dd><a href="mailto:{{ site.titular.email }}">{{ site.titular.email }}</a></dd></div>
+    </dl>
+    <a class="boton" href="mailto:{{ site.titular.email }}">Escribir un correo</a>
+    <p class="contacto__aviso">Al escribir o llamar, tus datos se tratarán solo para atender tu consulta, con la confidencialidad propia del secreto profesional. Más información en la <a href="{{ '/politica-de-privacidad/' | relative_url }}">política de privacidad</a>.</p>
+  </div>
+  <div class="contacto__despacho">
+    <p class="etiqueta">Despacho</p>
+    <p class="contacto__direccion">{{ site.titular.direccion }}<br>{{ site.titular.cp_ciudad }}</p>
+    <a href="https://www.openstreetmap.org/search?query={{ site.titular.direccion | append: ' ' | append: site.titular.cp_ciudad | url_encode }}" rel="noopener">Ver en el mapa</a>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: "La firma"
+permalink: /la-firma/
+description: "Despacho especializado en derecho civil, sucesiones y mercantil. Asesoría jurídica con trato directo, compromiso y experiencia en Barcelona."
+---
+<img class="banda-foto" src="{{ '/assets/img/la-firma.webp' | relative_url }}" srcset="{{ '/assets/img/la-firma-800.webp' | relative_url }} 800w, {{ '/assets/img/la-firma.webp' | relative_url }} 1200w" sizes="100vw" alt="">
+
+<section class="firma contenedor">
+  <img class="firma__retrato" src="{{ '/assets/img/constanza-sitja.webp' | relative_url }}" width="400" height="496" alt="Retrato de Constanza Sitjà">
+  <div class="firma__texto">
+    <p class="etiqueta">La firma</p>
+    <h1>Constanza Sitjà</h1>
+    <p class="entradilla">Constanza Sitjà presta servicios de asesoramiento en derecho mercantil y en derecho civil, especialmente en el ámbito inmobiliario y de sucesiones, con profesionalidad y compromiso.</p>
+    <p>Su tarea principal como abogada va más allá de los servicios jurídicos que presta a sus clientes. El principal valor que distingue este despacho profesional es la confianza y la calidad en el servicio.</p>
+    <p>Conocedora de la importancia que la implicación y la máxima calidad en el trabajo jurídico tienen para las personas, el despacho ofrece a sus clientes una atención permanente y continua y un contacto personal y directo, a fin de que el cliente no sólo conozca puntualmente la evolución del procedimiento que le concierne, sino que pueda, además, plantear sus preocupaciones.</p>
+    <p>La tarea de abogada se combina también con la de mediadora, tanto en asuntos civiles como de familia y mercantiles, siendo consciente de que en la actualidad es una necesidad, ante cualquier conflicto, fomentar la cultura del pacto y de la comunicación.</p>
+    <p>Especialista también en otros métodos alternativos de solución de conflictos (MASC/ADR), requisito necesario tras la reforma de la LO 1/2025, de 2 de enero, de medidas en materia de eficiencia del Servicio Público de Justicia, para la posterior interposición de la mayor parte de reclamaciones judiciales.</p>
+  </div>
+</section>
+
+<section class="formacion contenedor">
+  <h2>Formación académica</h2>
+  <ul class="formacion__lista">
+    {% for f in site.data.formacion %}
+    <li><span class="numero">{{ f.anyo }}</span><span>{{ f.texto }}</span></li>
+    {% endfor %}
+  </ul>
+</section>

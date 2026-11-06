@@ -1,0 +1,12 @@
+<section class="cierre" aria-label="Contacto directo">
+  <div class="contenedor cierre__fila">
+    {% include monograma.html class="cierre__monograma" trazo="1.4" fino="si" %}
+    <p class="cierre__frase">Si necesitas ayuda,<br>aquí estamos.</p>
+    <div class="cierre__datos">
+      <span class="etiqueta">Contacto directo</span>
+      <a class="cierre__telefono" href="tel:{{ site.titular.telefono_enlace }}">{{ site.titular.telefono }}</a>
+      <a class="cierre__email" href="mailto:{{ site.titular.email }}">{{ site.titular.email }}</a>
+      <a class="cierre__cita" href="{{ '/contacto/' | relative_url }}">Pedir cita</a>
+    </div>
+  </div>
+</section>

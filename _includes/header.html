@@ -1,0 +1,24 @@
+<div class="barra-contacto">
+  <div class="contenedor">
+    <a href="mailto:{{ site.titular.email }}">{{ site.titular.email }}</a>
+    <a href="tel:{{ site.titular.telefono_enlace }}">{{ site.titular.telefono }}</a>
+  </div>
+</div>
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="{{ '/' | relative_url }}" aria-label="{{ site.titular.nombre_corto }}, inicio">
+      {% include monograma.html class="marca__monograma" %}
+      <span class="marca__texto">
+        <span class="marca__nombre">{{ site.titular.nombre_corto }}</span>
+        <span class="marca__profesion">{{ site.titular.profesion }}</span>
+      </span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      {% assign menu = "Inicio|/,La firma|/la-firma/,Ámbito de práctica|/ambito-de-practica/,Contacto|/contacto/" | split: "," %}
+      {% for item in menu %}
+        {% assign partes = item | split: "|" %}
+        <a href="{{ partes[1] | relative_url }}"{% if page.url == partes[1] %} aria-current="page"{% endif %}>{{ partes[0] }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

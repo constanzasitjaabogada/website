@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.titulo_seo %}{% assign titulo = page.titulo_seo %}{% elsif page.title %}{% assign titulo = page.title | append: " – " | append: site.titular.nombre_corto %}{% else %}{% assign titulo = site.title %}{% endif %}
+  {% assign descripcion = page.description | default: site.description %}
+  <title>{{ titulo }}</title>
+  <meta name="description" content="{{ descripcion }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="{{ titulo }}">
+  <meta property="og:description" content="{{ descripcion }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/constanza-sitja.webp' | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preload" href="{{ '/assets/fonts/libre-franklin-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/libre-caslon-text-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "{{ site.titular.nombre_corto }} – {{ site.titular.profesion }}",
+    "url": "{{ site.url }}",
+    "image": "{{ '/assets/img/constanza-sitja.webp' | absolute_url }}",
+    "email": "{{ site.titular.email }}",
+    "telephone": "{{ site.titular.telefono_enlace }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.titular.direccion }}",
+      "addressLocality": "Barcelona",
+      "postalCode": "{{ site.titular.cp_ciudad | slice: 0, 5 }}",
+      "addressCountry": "ES"
+    },
+    "areaServed": "Barcelona"
+  }
+  </script>
+  {% endif %}
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  {% include header.html %}
+  <main id="contenido">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% if site.cloudflare_web_analytics_token != "" %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_web_analytics_token }}"}'></script>
+  {% endif %}
+</body>
+</html>
