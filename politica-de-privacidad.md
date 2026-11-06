@@ -20,9 +20,9 @@ Esta política explica cómo se tratan los datos personales de quienes visitan e
 Este sitio web **no tiene formularios ni áreas de registro** y **no utiliza cookies**. Los datos personales que pueden tratarse son:
 
 - **Datos que nos facilitas al contactar** por correo electrónico o por teléfono: nombre, datos de contacto y la información que decidas compartir sobre tu consulta.
-- **Datos técnicos de la visita**, que no se usan para identificarte:
-  - El proveedor de alojamiento, GitHub, registra la dirección IP de cada visitante por motivos de seguridad del servicio.
-  - El servicio de estadísticas Analyzati recoge datos agregados de la visita (página consultada, página de procedencia, tipo de navegador y dispositivo, y ciudad o país aproximados), sin cookies ni identificadores persistentes y sin seguirte entre sitios web.
+- **Datos técnicos de la visita:** el proveedor de alojamiento, GitHub, registra la dirección IP de cada visitante por motivos de seguridad del servicio. Estos datos no se usan para identificarte.
+
+Este sitio **no utiliza herramientas de estadísticas ni de seguimiento** de visitas.
 
 ## 3. Finalidades y base jurídica
 
@@ -31,7 +31,6 @@ Este sitio web **no tiene formularios ni áreas de registro** y **no utiliza coo
 | Atender tu consulta y, en su caso, estudiar el encargo profesional | Aplicación de medidas precontractuales a petición tuya (art. 6.1.b RGPD) |
 | Prestar los servicios de abogacía o mediación contratados | Ejecución del contrato (art. 6.1.b RGPD) y cumplimiento de obligaciones legales (art. 6.1.c RGPD) |
 | Garantizar la seguridad del sitio web (registros del alojamiento) | Interés legítimo en proteger el sitio y el servicio (art. 6.1.f RGPD) |
-| Conocer de forma agregada el uso del sitio para mejorarlo | Interés legítimo en medir la audiencia sin identificar a nadie (art. 6.1.f RGPD) |
 
 No se toman decisiones automatizadas ni se elaboran perfiles.
 
@@ -43,20 +42,19 @@ Toda la información que compartas con el despacho, también en una primera cons
 
 - **Consultas que no dan lugar a un encargo:** el tiempo necesario para atenderlas y, después, durante los plazos en que pudieran derivarse responsabilidades.
 - **Asuntos profesionales:** mientras dure la relación profesional y, después, durante los plazos de conservación que exija la normativa aplicable (entre otras, la fiscal y la de prevención del blanqueo de capitales) y los de prescripción de las posibles responsabilidades.
-- **Datos técnicos:** los conservan GitHub y Analyzati según sus propias políticas; el despacho solo accede a estadísticas agregadas.
+- **Datos técnicos:** los conserva GitHub según su propia política; el despacho no tiene acceso a ellos.
 
 ## 6. Destinatarios
 
 No se ceden datos a terceros salvo obligación legal, por ejemplo a juzgados, tribunales o administraciones públicas cuando lo exija la tramitación de un asunto.
 
-Para el funcionamiento del sitio intervienen estos proveedores:
+Para el funcionamiento del sitio interviene este proveedor:
 
 - **GitHub, Inc.** (alojamiento del sitio web, GitHub Pages). [Declaración de privacidad de GitHub](https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement).
-- **Analyzati** (estadísticas de visitas sin cookies, con servidores en la Unión Europea). [Política de privacidad de Analyzati](https://analyzati.com/privacy-policy/).
 
 ## 7. Transferencias internacionales
 
-GitHub tiene su sede en los Estados Unidos. Las transferencias de datos que puedan producirse por el alojamiento se amparan en el Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación de la Comisión Europea de 10 de julio de 2023) y, en su caso, en cláusulas contractuales tipo aprobadas por la Comisión Europea. Los datos de las estadísticas de visitas se tratan dentro de la Unión Europea.
+GitHub tiene su sede en los Estados Unidos. Las transferencias de datos que puedan producirse por el alojamiento se amparan en el Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación de la Comisión Europea de 10 de julio de 2023) y, en su caso, en cláusulas contractuales tipo aprobadas por la Comisión Europea.
 
 ## 8. Tus derechos
 
