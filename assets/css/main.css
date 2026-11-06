@@ -67,11 +67,11 @@ p { margin: 0; }
 .menu a[aria-current="page"] { border-bottom-color: var(--verde); }
 
 /* Fotos en banda */
-.banda { position: relative; max-width: calc(var(--ancho) - 64px); margin: 0 auto; }
-/* Las fotos de origen miden unos 1200 px: la banda se alinea con el contenido para no ampliarlas */
+.banda { position: relative; }
+/* Las fotos de origen miden unos 1200 px; para pantallas grandes hay versiones de 2000 px ampliadas con Lanczos y enfoque suave */
 
-.banda-foto { width: 100%; height: clamp(220px, 23vw, 300px); object-fit: cover; }
-.banda-foto--alta { height: clamp(240px, 30vw, 380px); }
+.banda-foto { width: 100%; height: clamp(220px, 23vw, 420px); object-fit: cover; }
+.banda-foto--alta { height: clamp(240px, 30vw, 520px); }
 
 /* Portada */
 .portada { display: flex; flex-wrap: wrap; align-items: center; gap: 56px; padding-top: 96px; padding-bottom: 88px; }
