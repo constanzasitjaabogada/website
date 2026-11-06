@@ -68,8 +68,9 @@ p { margin: 0; }
 
 /* Fotos en banda */
 .banda { position: relative; background: var(--verde); }
-.banda::after { content: ""; position: absolute; inset: 0; background: var(--verde); mix-blend-mode: color; opacity: 0.25; pointer-events: none; }
-.banda .banda-foto { filter: saturate(0.75); }
+/* Fotos en blanco y negro, como el retrato. Para volver al velo verde:
+   .banda::after { content: ""; position: absolute; inset: 0; background: var(--verde); mix-blend-mode: color; opacity: 0.25; } */
+.banda .banda-foto { filter: grayscale(1) contrast(1.05); }
 .banda-foto { width: 100%; height: clamp(220px, 23vw, 440px); object-fit: cover; }
 .banda-foto--alta { height: clamp(240px, 30vw, 560px); }
 
