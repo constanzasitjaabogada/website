@@ -81,10 +81,23 @@ p { margin: 0; }
 .portada__retrato { flex: 1 1 280px; max-width: 360px; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
 
 .areas-resumen { border-top: 1px solid var(--negro); }
-.areas-resumen__rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
-.area-tarjeta { display: flex; flex-direction: column; gap: 12px; padding: 48px 24px 56px; text-decoration: none; border-right: 1px solid var(--linea); }
-.area-tarjeta:first-child { padding-left: 0; }
-.area-tarjeta:last-child { border-right: 0; }
+.areas-resumen__rejilla { display: grid; grid-template-columns: 1fr; }
+.area-tarjeta { display: flex; flex-direction: column; gap: 12px; padding: 32px 0; text-decoration: none; border-bottom: 1px solid var(--linea); }
+.area-tarjeta:last-child { border-bottom: 0; }
+@media (min-width: 641px) {
+  .areas-resumen__rejilla { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .area-tarjeta { padding: 48px 32px 56px 0; }
+  .area-tarjeta:nth-child(even) { padding: 48px 0 56px 32px; border-left: 1px solid var(--linea); }
+  .area-tarjeta:nth-child(-n+2) { border-bottom: 1px solid var(--linea); }
+  .area-tarjeta:nth-child(n+3) { border-bottom: 0; }
+}
+@media (min-width: 1000px) {
+  .areas-resumen__rejilla { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .area-tarjeta, .area-tarjeta:nth-child(even) { padding: 48px 24px 56px; border-bottom: 0; border-left: 1px solid var(--linea); }
+  .area-tarjeta:nth-child(-n+2) { border-bottom: 0; }
+  .area-tarjeta:first-child { padding-left: 0; border-left: 0; }
+  .area-tarjeta:last-child { padding-right: 0; }
+}
 .area-tarjeta .numero { font-size: 15px; }
 .area-tarjeta__titulo { font-family: var(--serif); font-size: 24px; line-height: 1.2; color: var(--negro); }
 .area-tarjeta__resumen { color: #444; font-size: 16px; }
@@ -166,7 +179,6 @@ p { margin: 0; }
   .marca__nombre { font-size: 22px; }
   .menu { gap: 0 16px; font-size: 14px; }
   .portada { padding-top: 56px; padding-bottom: 56px; gap: 40px; }
-  .area-tarjeta { border-right: 0; border-bottom: 1px solid var(--linea); padding: 32px 0; }
   .cierre__fila { padding-top: 72px; padding-bottom: 80px; gap: 40px; }
   .cierre__monograma { width: 120px; height: 142px; flex-basis: 120px; }
   .cierre__datos { padding-left: 20px; }
