@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Ámbito de práctica"
+permalink: /ambito-de-practica/
+description: "Especialista en derecho civil, sucesiones, mercantil y mediación. Soluciones legales y extrajudiciales con trato cercano y profesional en Barcelona."
+---
+<img class="banda-foto" src="{{ '/assets/img/ambito.webp' | relative_url }}" srcset="{{ '/assets/img/ambito-800.webp' | relative_url }} 800w, {{ '/assets/img/ambito.webp' | relative_url }} 1920w" sizes="100vw" alt="">
+
+<section class="ambito contenedor">
+  <p class="etiqueta">Ámbito de práctica</p>
+  <h1>En qué puedo ayudarte</h1>
+  <div class="ambito__lista">
+    {% for area in site.data.areas %}
+    <div class="ambito__area" id="{{ area.titulo | slugify }}">
+      <div class="ambito__cabecera">
+        <span class="numero">{{ area.n }}</span>
+        <h2>{{ area.titulo }}</h2>
+      </div>
+      <div class="ambito__contenido">
+        {% if area.puntos %}
+        <ul>
+          {% for p in area.puntos %}<li>{{ p }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+        {% for p in area.parrafos %}<p>{{ p }}</p>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,42 @@
+# Constanza Sitjà – Abogada y mediadora
+# Sitio estático en Jekyll para GitHub Pages.
+
+title: "Constanza Sitjà – Abogada y mediadora"
+description: "Asesoramiento legal en derecho civil, sucesiones y mercantil. Constanza Sitjà, abogada y mediadora en Barcelona. Contacto directo y atención personalizada."
+url: "https://constanzasitjaabogada.com"
+baseurl: ""
+lang: es
+
+# Datos de la titular – se usan en la cabecera, el pie y los textos legales.
+# PENDIENTE: confirmar con Costi la dirección (Diagonal 468 o Passeig de Gràcia 21),
+# el NIF y el número de colegiada antes de publicar.
+titular:
+  nombre: "Constanza Sitjà Bobadilla"
+  nombre_corto: "Constanza Sitjà"
+  profesion: "Abogada y mediadora"
+  nif: "[NIF]"
+  colegio: "Il·lustre Col·legi de l'Advocacia de Barcelona (ICAB)"
+  numero_colegiada: "[número]"
+  titulo: "Licenciada en Derecho por la Universidad de Barcelona"
+  direccion: "Avda. Diagonal 468, 9ª planta"
+  cp_ciudad: "08006 Barcelona"
+  email: "constanza@torredemer.com"
+  telefono: "+34 659 49 22 29"
+  telefono_enlace: "+34659492229"
+
+# Cloudflare Web Analytics (sin cookies). Pega aquí el token del panel de
+# Cloudflare > Analytics & Logs > Web Analytics. Vacío = no se carga nada.
+cloudflare_web_analytics_token: ""
+
+# Fecha de última revisión de los textos legales
+legal_actualizado: "noviembre de 2026"
+
+markdown: kramdown
+kramdown:
+  auto_ids: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

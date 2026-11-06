@@ -1,0 +1,39 @@
+- n: "01"
+  titulo: "Derecho civil"
+  resumen: "Contratos, arrendamientos, responsabilidad civil y asuntos inmobiliarios."
+  puntos:
+    - "Reclamaciones de cantidad."
+    - "Estudio y redacción de contratos civiles de compraventa, arrendamiento, permutas, arras y opciones de compra."
+    - "Responsabilidad civil contractual y extracontractual."
+    - "Reclamación de responsabilidad por daños."
+    - "Transacciones, conciliaciones y soluciones extrajudiciales."
+    - "Procedimientos judiciales en materia de propiedad."
+    - "Declaración de obra nueva y propiedad horizontal."
+    - "Desahucios, precarios y procedimientos judiciales relacionados con los contratos de arrendamiento."
+    - "Procedimientos relacionados con el ámbito inmobiliario y el derecho de la construcción."
+
+- n: "02"
+  titulo: "Derecho de sucesiones"
+  resumen: "Testamentos, declaraciones de herederos y aceptación de herencias."
+  puntos:
+    - "Asesoramiento en materia sucesoria."
+    - "Testamentos."
+    - "Declaraciones de herederos y aceptación de herencia."
+    - "Liquidación del impuesto de sucesiones."
+
+- n: "03"
+  titulo: "Derecho mercantil"
+  resumen: "Asesoramiento contractual y societario, y juntas de socios."
+  puntos:
+    - "Asesoramiento en materia mercantil contractual y societaria."
+    - "Litigioso societario: impugnación de acuerdos sociales."
+    - "Asistencia a juntas de socios. Redacción de actas y ejecución de acuerdos (aumento, disminución de capital, cambio de domicilio, etc.)."
+
+- n: "04"
+  titulo: "Mediación"
+  resumen: "Mediación civil, de familia, mercantil y deportiva."
+  parrafos:
+    - "El proceso de mediación es un método para resolver disputas, alternativo a la vía judicial, en el que las partes voluntariamente intentan llegar a un acuerdo personalmente, con la asistencia de la persona mediadora. Las partes pueden participar en este proceso asistidas de su abogado o abogada."
+    - "Los acuerdos alcanzados durante el proceso de mediación tienen validez jurídica como si de un contrato se tratara, así como fuerza ejecutiva en el caso de protocolización notarial."
+    - "Este despacho dispone de la acreditación legal para realizar procedimientos de mediación civiles, de familia, mercantiles y deportivos. Constanza Sitjà puede intervenir como mediadora o en la asistencia jurídica del cliente, en la mediación o en cualquier otro sistema de resolución alternativa del conflicto (MASC)."
+    - "Inscrita en el Centre de Mediació de Catalunya de la Generalitat de Catalunya y en el Registro de Mediadores del Ministerio de Justicia."
