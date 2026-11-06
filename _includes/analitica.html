@@ -1,2 +1,14 @@
 <!-- Analyzati: estadísticas sin cookies (servidores en la UE). data-dnt="true" respeta la opción «No rastrear» del navegador. -->
+<!-- Impide que el script guarde datos en el almacenamiento de sesión (claves analyzati_*), para que la web no guarde nada en el dispositivo del visitante. -->
+<script>
+(function () {
+  try {
+    var proto = Storage.prototype, original = proto.setItem;
+    proto.setItem = function (clave, valor) {
+      if (this === window.sessionStorage && String(clave).indexOf("analyzati_") === 0) { return; }
+      return original.apply(this, arguments);
+    };
+  } catch (e) {}
+})();
+</script>
 <script data-host="https://app.analyzati.com" data-dnt="true" src="https://app.analyzati.com/js/script.js?v=1793189645" id="ZwSg9rf6GA" async defer></script>

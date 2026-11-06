@@ -9,25 +9,16 @@ description: "Política de cookies del sitio web de Constanza Sitjà. Este sitio
 
 Las cookies son pequeños archivos que algunos sitios web guardan en el navegador de quien los visita, por ejemplo para recordar preferencias o para seguir su navegación.
 
-**Este sitio web no instala cookies.** Tampoco utiliza identificadores persistentes ni técnicas de huella digital del dispositivo. Por eso no se muestra ningún aviso para aceptar o rechazar cookies.
+**Este sitio web no instala cookies ni guarda ningún otro dato en tu dispositivo** (ni en el almacenamiento local ni en el de sesión del navegador). Tampoco utiliza identificadores persistentes ni técnicas de huella digital. Por eso no se muestra ningún aviso para aceptar o rechazar cookies.
 
 ## 2. Estadísticas de visitas sin cookies
 
 Para saber de forma agregada cuántas personas visitan el sitio y qué páginas consultan, se utiliza **Analyzati**, un servicio europeo de estadísticas con servidores en la Unión Europea que:
 
-- no instala cookies ni utiliza identificadores persistentes de visitante;
+- no instala cookies ni guarda datos en tu navegador, ni utiliza identificadores persistentes de visitante;
 - no sigue tu navegación entre sitios web;
 - ofrece al despacho únicamente cifras agregadas (número de visitas, páginas más consultadas, procedencia, tipo de dispositivo y ciudad o país aproximados);
 - respeta la opción «No rastrear» (*Do Not Track*) de tu navegador: si la tienes activada, no se registra tu visita.
-
-Solo para saber si una visita llega desde un asistente de inteligencia artificial (por ejemplo, un enlace en una respuesta de un chatbot), Analyzati guarda temporalmente esta información en el **almacenamiento de sesión** del navegador, que se borra automáticamente al cerrar la pestaña:
-
-| Nombre | Finalidad | Duración |
-|---|---|---|
-| `analyzati_ai_platform` | Asistente de IA desde el que se llegó al sitio, si es el caso | Sesión (se borra al cerrar la pestaña) |
-| `analyzati_ai_landing` | Primera página visitada desde ese asistente | Sesión (se borra al cerrar la pestaña) |
-
-Esta información no te identifica ni se usa para seguirte en otras visitas o en otros sitios.
 
 Más información en la [política de privacidad de Analyzati](https://analyzati.com/privacy-policy/).
 
