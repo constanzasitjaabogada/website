@@ -8,7 +8,7 @@ baseurl: ""
 lang: es
 
 # Datos de la titular – se usan en la cabecera, el pie y los textos legales.
-# PENDIENTE: el NIF y el número de colegiada antes de publicar.
+# PENDIENTE: el NIF antes de publicar.
 # Dirección confirmada: Diagonal 468 (Passeig de Gràcia 21 era la antigua).
 titular:
   nombre: "Constanza Sitjà Bobadilla"
@@ -16,7 +16,7 @@ titular:
   profesion: "Abogada y mediadora"
   nif: "[NIF]"
   colegio: "Il·lustre Col·legi de l'Advocacia de Barcelona (ICAB)"
-  numero_colegiada: "[número]"
+  numero_colegiada: "21426"
   titulo: "Licenciada en Derecho por la Universidad de Barcelona"
   direccion: "Avda. Diagonal 468, 9ª planta"
   cp_ciudad: "08006 Barcelona"

@@ -22,7 +22,7 @@ Casi todo lo que cambia con el tiempo está en `_config.yml` (bloque `titular`) 
 
 ## Antes de publicar
 
-- [ ] Rellenar `nif` y `numero_colegiada` en `_config.yml`
+- [ ] Rellenar `nif` en `_config.yml`
 - [x] Dirección confirmada: Avda. Diagonal 468, 9ª planta
 - [ ] Settings › Pages: publicar desde la rama `main`, carpeta raíz; dominio personalizado `constanzasitjaabogada.com`; activar *Enforce HTTPS*
 
