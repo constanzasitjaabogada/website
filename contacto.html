@@ -19,6 +19,6 @@ description: "¿Necesitas asesoramiento legal? Contacta con Constanza Sitjà, ab
   <div class="contacto__despacho">
     <p class="etiqueta">Despacho</p>
     <p class="contacto__direccion">{{ site.titular.direccion }}<br>{{ site.titular.cp_ciudad }}</p>
-    <a href="https://www.openstreetmap.org/search?query={{ site.titular.direccion | append: ' ' | append: site.titular.cp_ciudad | url_encode }}" rel="noopener">Ver en el mapa</a>
+    <a href="{{ site.titular.mapa | escape }}" target="_blank" rel="noopener">Ver en el mapa</a>
   </div>
 </section>

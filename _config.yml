@@ -20,6 +20,7 @@ titular:
   titulo: "Licenciada en Derecho por la Universidad de Barcelona"
   direccion: "Avda. Diagonal 468, 9ª planta"
   cp_ciudad: "08006 Barcelona"
+  mapa: "https://www.google.com/maps/search/?api=1&query=Avinguda+Diagonal+468%2C+08006+Barcelona"
   email: "constanza@torredemer.com"
   telefono: "+34 659 49 22 29"
   telefono_enlace: "+34659492229"
