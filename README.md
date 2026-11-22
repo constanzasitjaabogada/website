@@ -44,3 +44,7 @@ bundle exec jekyll serve
 ```
 
 Y abrir http://localhost:4000
+
+## Créditos
+
+Web diseñada y construida por Xènia Pérez Sitjà, con la ayuda de Claude (Anthropic).
