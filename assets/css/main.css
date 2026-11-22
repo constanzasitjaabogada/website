@@ -154,7 +154,7 @@ p { margin: 0; }
 
 /* Textos legales */
 .legal { max-width: 820px; padding-top: 80px; padding-bottom: 96px; }
-.legal h1 { margin: 16px 0 8px; }
+.legal h1 { margin: 0 0 8px; }
 .legal__fecha { color: var(--gris); font-size: 15px; margin-bottom: 40px; }
 .legal__cuerpo { color: var(--gris-oscuro); }
 .legal__cuerpo h2 { font-size: 24px; color: var(--negro); margin: 40px 0 12px; }
